@@ -8,6 +8,7 @@ public class Main {
         int ordinal = Company.EBAY.ordinal();
         Company ebay = Company.valueOf("EBAY");
         Company[] values = Company.values();
+        Object ebayObject = Company.valueOf(Company.class, "EBAY");
         System.out.println("Hello world!");
     }
 }
