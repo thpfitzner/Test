@@ -9,6 +9,7 @@ public class Main {
         Company ebay = Company.valueOf("EBAY");
         Company[] values = Company.values();
         Object ebayObject = Company.valueOf(Company.class, "EBAY");
+        Company ebayConstant = Company.EBAY;
         System.out.println("Hello world!");
     }
 }
